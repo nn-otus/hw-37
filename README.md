@@ -137,7 +137,9 @@ PING 172.18.0.254 (172.18.0.254) 56(84) bytes of data.
 Связность восстановилась.  
 </details>  
 MAC-адреса виртуальных машин:  
-![Скриншот MAC-адресов](pics/1_MAC_addresses.PNG)  
+
+![VM_MAC_addresses](pics/1_MAC_addresses.PNG)  
+ 
 
 Пинг от серверов к клиентам: tcpdump показывает, что пинги идут в каналах соответствующих VLAN:  
 ![Скриншот пингов](pics/2_ping_from_srv_to_client.PNG)  
